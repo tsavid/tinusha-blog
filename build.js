@@ -126,11 +126,21 @@ export async function build() {
     const rawHtml = marked(content);
     const { html: contentHtml, toc } = processHeadings(rawHtml);
     const readingTime = calculateReadingTime(content);
-    const dateFormatted = formatDate(data.date);
+
+    let dateStr = '1970-01-01';
+    if (data.date) {
+      if (data.date instanceof Date) {
+        dateStr = data.date.toISOString().split('T')[0];
+      } else {
+        dateStr = String(data.date).trim();
+      }
+    }
+
+    const dateFormatted = formatDate(dateStr);
 
     posts.push({
       title: data.title || slug,
-      date: data.date || '1970-01-01',
+      date: dateStr,
       excerpt: data.excerpt || '',
       tags: data.tags || [],
       draft: data.draft || false,
