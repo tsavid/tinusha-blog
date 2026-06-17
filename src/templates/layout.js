@@ -135,7 +135,7 @@ export default function layout({
     <aside class="sidebar" id="sidebar">
       <div>
         <div class="sidebar-identity">
-          <a href="/" class="sidebar-title">
+          <a href="https://tinusha.com" class="sidebar-title">
             <svg class="logo-node-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 14px; height: 14px; fill: currentColor; display: inline-block; vertical-align: middle; margin-right: 6px; margin-top: -2px;">
               <path d="M10.5 4v6.5H4v3h6.5V20h3v-6.5H20v-3h-6.5V4h-3z" />
             </svg>Tinusha Savidya</a>
