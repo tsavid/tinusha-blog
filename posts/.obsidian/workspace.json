@@ -180,15 +180,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1270cb3de4f12d63",
+  "active": "cce607d3d9510dd8",
   "lastOpenFiles": [
-    "value-of-bs.md",
-    "the-value-of-constraints.md",
+    "image.png",
     "Pasted image 20260617172828.png",
     "Lorem Ispum Dolor Sit Amet.md",
+    "value-of-bs.md",
+    "the-value-of-constraints.md",
     "Pasted image 20260617172834.png"
   ]
 }

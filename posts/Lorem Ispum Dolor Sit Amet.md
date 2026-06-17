@@ -12,7 +12,7 @@ tags:
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lorem neque, malesuada eget placerat vitae, molestie sit amet lacus. Nam pretium, lorem nec sodales maximus, lectus felis tincidunt libero, vel fringilla diam nisi commodo ipsum. Fusce congue magna justo, tempus feugiat ipsum consectetur at. Nullam molestie diam nulla, pharetra vulputate velit gravida non. Quisque egestas mi quis urna fringilla, in condimentum ante ultricies. Nullam fringilla malesuada nunc eget pretium. Praesent in tortor nunc. Nunc est lacus, ultrices a nulla dictum, consequat efficitur est. Donec gravida magna non posuere congue. Maecenas dapibus fringilla aliquet. Aliquam blandit aliquet urna, quis auctor sapien laoreet non. Quisque quis elit sagittis, tristique erat sit amet, placerat mauris.
 
-![[Pasted image 20260617172828.png|394]]
+![paris](image.png)
 
 Ut tincidunt ligula et tortor placerat iaculis. Maecenas sit amet maximus nunc. In sed lacus et nisi iaculis semper. In consectetur ligula nec lorem suscipit, sit amet vehicula urna fermentum. Aliquam at erat egestas, commodo massa et, aliquet quam. Vestibulum eu fringilla nunc, at ultricies justo. Donec tempus magna velit, at finibus leo consequat sed. Etiam nisi sem, sodales ultrices nibh eu, pretium ornare ante. In accumsan facilisis risus vitae mattis. Cras in elementum odio. Vivamus tincidunt quam sapien, a rutrum tellus commodo sed. Maecenas sit amet nisi lacinia, porta elit sit amet, tristique lorem. Quisque accumsan, odio quis eleifend lobortis, magna diam imperdiet eros, eu vulputate quam odio et mauris. Nullam urna mauris, hendrerit vel tempor non, fringilla at metus.
 
@@ -21,7 +21,7 @@ Nam fringilla porttitor mauris in suscipit. Pellentesque sed nibh nisl. Pellente
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut accumsan auctor dolor, eu condimentum augue bibendum et. Suspendisse placerat finibus sapien eget fermentum. Aliquam interdum mattis risus, non gravida urna tempus nec. Donec laoreet lacus quis turpis posuere cursus. Sed ultricies ornare purus a placerat. Curabitur leo eros, facilisis id libero ut, auctor auctor mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sit amet libero eu mauris imperdiet scelerisque sit amet at justo. Suspendisse varius accumsan nunc, vitae euismod lectus vehicula at.
 
-![[Pasted image 20260617172834.png|395]]
+![paris](image.png)
 
 Phasellus vitae urna quis diam vestibulum euismod. Etiam quis erat at ligula dictum iaculis vel quis mauris. Phasellus luctus metus vitae dapibus vulputate. In et sem et augue lobortis bibendum a ullamcorper massa. Ut tincidunt auctor nunc a lacinia. Nunc congue auctor feugiat. Duis congue sapien sit amet sollicitudin iaculis. Nam erat mi, consequat vitae venenatis sed, sodales quis lorem. Aenean eu sapien dapibus, sollicitudin risus molestie, rutrum tortor. Donec feugiat pretium leo, ac facilisis lorem accumsan sed. Duis quis turpis ut turpis malesuada auctor. Maecenas sed turpis risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla nec turpis ut mi iaculis tristique nec quis dolor. Donec ullamcorper consectetur dui id eleifend.
 
