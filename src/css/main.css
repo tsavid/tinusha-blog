@@ -369,12 +369,12 @@ body {
   transform: translateY(0);
 }
 
-.main--wider {
-  max-width: 1200px;
+.main.main--wider {
+  max-width: 1200px !important;
 }
 
-.main--wider .article-body p {
-  max-width: 75ch;
+.main.main--wider .article-body p {
+  max-width: 75ch !important;
 }
 
 /* --- Footer --- */
@@ -722,7 +722,7 @@ body {
 .article-body td {
   padding: var(--sp-2) var(--sp-3);
   text-align: left;
-  border: 1px solid var(--color-rule);
+  border: 1px solid var(--color-rule-strong);
 }
 
 .article-body th {

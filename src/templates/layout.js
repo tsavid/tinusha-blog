@@ -102,7 +102,7 @@ export default function layout({
   ${highlightCSS}
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/main.css?v=1.0.3">
 
   <!-- Theme: prevent flash of wrong theme -->
   <script>
