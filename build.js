@@ -69,6 +69,17 @@ function copyDirSync(src, dest) {
   }
 }
 
+const parseWikilinks = (content) => content.replace(/!\[\[([^\]|]+)(?:\|([^\]]*))?\]\]/g, (_, f, a) => `![${a ? a.trim() : f}](${encodeURIComponent(f)})`);
+
+const copyAssets = (src, dest) => {
+  if (!fs.existsSync(src)) return;
+  fs.readdirSync(src, { withFileTypes: true }).forEach((entry) => {
+    if (entry.isFile() && !entry.name.endsWith('.md')) {
+      fs.copyFileSync(path.join(src, entry.name), path.join(dest, entry.name));
+    }
+  });
+};
+
 /**
  * Process rendered HTML: assign IDs to h2/h3 headings, extract TOC.
  */
@@ -109,6 +120,7 @@ export async function build() {
   fs.copyFileSync(JS_SRC, path.join(DIST, 'js', 'main.js'));
 
   // 4. Read and parse all posts
+  copyAssets(POSTS_DIR, DIST);
   const postFiles = fs.existsSync(POSTS_DIR)
     ? fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'))
     : [];
@@ -123,7 +135,7 @@ export async function build() {
     if (data.draft && !includeDrafts) continue;
 
     const slug = path.basename(file, '.md');
-    const rawHtml = marked(content);
+    const rawHtml = marked(parseWikilinks(content));
     const { html: contentHtml, toc } = processHeadings(rawHtml);
     const readingTime = calculateReadingTime(content);
 
@@ -184,6 +196,7 @@ export async function build() {
     const dir = path.join(DIST, 'articles', post.slug);
     ensureDir(dir);
     fs.writeFileSync(path.join(dir, 'index.html'), html);
+    copyAssets(POSTS_DIR, dir);
   }
 
   // 7. Generate tag pages
