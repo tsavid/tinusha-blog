@@ -699,6 +699,42 @@ body {
   border-radius: 4px;
 }
 
+/* Tables */
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--sp-6) 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.article-body th,
+.article-body td {
+  padding: var(--sp-2) var(--sp-3);
+  text-align: left;
+  border: 1px solid var(--color-rule);
+}
+
+.article-body th {
+  font-weight: 500;
+  background-color: var(--color-surface);
+  border-bottom: 2px solid var(--color-rule-strong);
+  color: var(--color-ink-2);
+  text-transform: uppercase;
+  font-size: var(--text-xs);
+  letter-spacing: 0.05em;
+}
+
+.article-body td {
+  vertical-align: top;
+}
+
+.article-body tr:hover {
+  background-color: var(--color-hover-bg);
+}
+
 /* Override highlight.js background */
 .article-body pre code.hljs {
   background: var(--color-code-bg);
