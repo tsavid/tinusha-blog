@@ -10,15 +10,6 @@ tags:
   - sri-lanka
 ---
 
-<style>
-  .main {
-    max-width: 1200px !important;
-  }
-  .article-body p {
-    max-width: 75ch !important;
-  }
-</style>
-
 ## Pillar 1: Jurisdictional Scope & Applicability
 
 | Section                         | Direct Quote                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Application to SMBs                                                                                                                                                                                                                                                                                                                                                      |

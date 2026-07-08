@@ -20,6 +20,7 @@ export default function layout({
   activePage = '',
   isArticle = false,
   og = {},
+  widerLayout = false,
 }) {
   const siteTitle = 'Tinusha Savidya';
   const baseUrl = process.env.CF_PAGES_URL || process.env.SITE_URL || '';
@@ -157,7 +158,7 @@ export default function layout({
       </ul>
     </aside>
 
-    <main class="main">
+    <main class="main${widerLayout ? ' main--wider' : ''}">
       ${progressBar}
       ${body}
 

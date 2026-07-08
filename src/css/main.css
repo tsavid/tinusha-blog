@@ -369,6 +369,14 @@ body {
   transform: translateY(0);
 }
 
+.main--wider {
+  max-width: 1200px;
+}
+
+.main--wider .article-body p {
+  max-width: 75ch;
+}
+
 /* --- Footer --- */
 .site-footer {
   margin-top: var(--sp-12);

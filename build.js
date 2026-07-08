@@ -185,6 +185,7 @@ export async function build() {
       toc: post.toc,
       activePage: 'articles',
       isArticle: true,
+      widerLayout: post.slug === 'Sri Lanka Personal Data Protection Compliance Ledger (PDPA-CL)',
       og: {
         type: 'article',
         title: post.title,
