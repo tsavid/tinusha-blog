@@ -1,8 +1,9 @@
 ---
 title: Accenture Data Breach (July 2026)
 date: 2026-07-08
-excerpt:
+excerpt: "888"
 tags:
+  - hack
 ---
 ### 1. Current Incident Status
 
