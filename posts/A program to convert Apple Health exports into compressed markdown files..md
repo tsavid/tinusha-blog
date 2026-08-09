@@ -6,7 +6,7 @@ tags:
   - health
   - tools
 ---
-### export_md.py
+## export_md.py
 
 
 Simply put, It takes your raw Apple Health dump (`export.xml` and GPX route files) and converts them into compact markdown files. 
@@ -27,7 +27,7 @@ Once parsed, it generates 7 specific files:
 * **Nutrition** `write_nutrition_md` & **Body Mass** `write_body_md`: Formats meal metrics and body weight entries chronologically.
 * **GPS Routes** `write_gps_data_md`: Reads `.gpx` files in `workout-routes/` and records time, coordinates, elevation, and speed. Thins track points down to 1 per minute
 
-### Execution
+## Execution
 
 Get it from [tsavid/health](https://github.com/tsavid/health) and try yourself
 
@@ -41,7 +41,7 @@ When run, it;
 	runs all exporters,
 	and outputs "Complete".
 
-### Feedback
+## Feedback
 
 [File an issue / Request a new feature](https://github.com/tsavid/health/issues)
 
